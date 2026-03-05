@@ -3,9 +3,9 @@ import { Ionicons, MaterialIcons } from '@expo/vector-icons';
 
 export default function WhatsApp() {
   const chats = [
-    { id: 1, name: 'Neymar Jr', msg: 'Bora pro treino amanhã?', time: '21:45', img: 'https://img.a.transfermarkt.technology/portrait/big/68290-1692601435.jpg?lm=1' },
-    { id: 2, name: 'Cristiano Ronaldo', msg: 'O treino de hoje foi pesado! SIUUU', time: '20:30', img: 'https://media.fstatic.com/OINkROEpIXatCIRBTL9uw98skWg=/full-fit-in/290x478/filters:format(webp)/media/artists/avatar/2020/04/cristiano-ronaldo_a336212.jpg' },
-    { id: 3, name: 'Lionel Messi', msg: '¿Viste el partido de ayer?', time: '19:15', img: 'https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/MESSI.jpg' },
+    { id: 1, name: 'Neymar Jr🖐️😜🤚 ', msg: 'hoje é onde? Projetin fellas', time: '21:45', img: 'https://img.a.transfermarkt.technology/portrait/big/68290-1692601435.jpg?lm=1' },
+    { id: 2, name: 'Cristiano Ronaldo🐐🤖', msg: '5 bolas de ouro e 2 de carne SIUUU', time: '20:30', img: 'https://media.fstatic.com/OINkROEpIXatCIRBTL9uw98skWg=/full-fit-in/290x478/filters:format(webp)/media/artists/avatar/2020/04/cristiano-ronaldo_a336212.jpg' },
+    { id: 3, name: 'Lionel Messi👽🐐', msg: 'hola macaquito brasileño ', time: '19:15', img: 'https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/MESSI.jpg' },
   ];
 
   return (
