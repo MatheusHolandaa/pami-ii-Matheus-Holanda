@@ -1,12 +1,12 @@
-import { View, Text, StyleSheet, ScrollView, SafeAreaView, Image } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 export default function Instagram() {
   const stories = [
     { id: 1, name: 'Seu story', img: 'https://github.com/identicons/jason.png' },
-    { id: 2, name: 'cristiano', img: 'https://tmssl.akamaized.net/images/foto/galerie/cristiano-ronaldo-portugal-2024-1718116346-139363.jpg' },
-    { id: 3, name: 'leomessi', img: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg' },
-    { id: 4, name: 'neymarjr', img: 'https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2023/10/18/1487265932-neymar-selecao.jpg' },
+    { id: 2, name: 'cristiano', img: 'https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/pcxgwhoweqzzhiuqbwqw' },
+    { id: 3, name: 'leomessi', img: 'https://im.rediff.com/300-300/sports/2011/apr/28pix2.jpg' },
+    { id: 4, name: 'neymarjr', img: 'https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/ptry0ezl12okntst70gi' },
   ];
 
   return (
@@ -39,7 +39,7 @@ export default function Instagram() {
             resizeMode="cover"
           />
           <View style={{padding: 10}}>
-            <Text style={{color: 'white'}}><Text style={{fontWeight: 'bold'}}>cristiano</Text> Victory is a State of Mind. ♟️</Text>
+            <Text style={{color: 'white'}}><Text style={{fontWeight: 'bold'}}>cristiano</Text> Ni minha cabeça eu sou o milior! SIUUU. ♟️</Text>
           </View>
         </View>
       </ScrollView>

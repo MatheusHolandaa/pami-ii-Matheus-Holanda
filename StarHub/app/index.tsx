@@ -1,11 +1,13 @@
-import { View, Text, StyleSheet, ScrollView, SafeAreaView, Image, TouchableOpacity } from 'react-native';
 import { Ionicons, MaterialIcons } from '@expo/vector-icons';
+import { Image, SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function WhatsApp() {
   const chats = [
-    { id: 1, name: 'Neymar Jr🖐️😜🤚 ', msg: 'hoje é onde? Projetin fellas', time: '21:45', img: 'https://img.a.transfermarkt.technology/portrait/big/68290-1692601435.jpg?lm=1' },
-    { id: 2, name: 'Cristiano Ronaldo🐐🤖', msg: '5 bolas de ouro e 2 de carne SIUUU', time: '20:30', img: 'https://media.fstatic.com/OINkROEpIXatCIRBTL9uw98skWg=/full-fit-in/290x478/filters:format(webp)/media/artists/avatar/2020/04/cristiano-ronaldo_a336212.jpg' },
-    { id: 3, name: 'Lionel Messi👽🐐', msg: 'hola macaquito brasileño ', time: '19:15', img: 'https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/MESSI.jpg' },
+    { id: 1, name: 'Neymar Jr ✋😜🤚', msg: 'Vai pro treino hj não, vai ter resenha la em casa', time: '21:45', img: 'https://img.a.transfermarkt.technology/portrait/big/68290-1692601435.jpg?lm=1' },
+    { id: 2, name: 'Cristiano Ronaldo 🤖🐐', msg: '5 bolas de ouro e duas de carne SIUUU', time: '20:30', img: 'https://media.fstatic.com/OINkROEpIXatCIRBTL9uw98skWg=/full-fit-in/290x478/filters:format(webp)/media/artists/avatar/2020/04/cristiano-ronaldo_a336212.jpg' },
+    { id: 3, name: 'Lionel Messi 👽🐐', msg: '¿Holá macaquito brasilenõ?', time: '19:15', img: 'https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/MESSI.jpg' },
+    { id: 4, name: 'P. Diddy ', msg: 'Não vou na festa hj, para de enxer o saco', time: '01:14', img: 'https://static1.purepeople.com.br/articles/4/39/69/84/@/4527436-p-diddy-teria-tido-crimes-sexuais-entre-300x300-2.jpg'},
+    {}
   ];
 
   return (
