@@ -17,54 +17,72 @@
 
   <main class="wrap">
 
-    <section class="panel form-panel">
-      <h2 id="form-title">Novo produto</h2>
-      <form id="product-form">
-        <input type="hidden" id="product-id">
-
-        <label for="name">Nome</label>
-        <input type="text" id="name" required placeholder="Ex: Teclado mecânico">
-
-        <div class="row">
-          <div class="col">
-            <label for="price">Preço (R$)</label>
-            <input type="number" id="price" step="0.01" min="0" required placeholder="0,00">
-          </div>
-          <div class="col">
-            <label for="stock">Estoque</label>
-            <input type="number" id="stock" min="0" placeholder="0">
-          </div>
-        </div>
-
-        <div class="actions">
-          <button type="submit" id="submit-btn" class="btn btn-primary">Criar produto</button>
-          <button type="button" id="cancel-btn" class="btn btn-ghost hidden">Cancelar edição</button>
-        </div>
-
-        <p id="form-msg" class="form-msg"></p>
-      </form>
-    </section>
-
+    <!-- Container Único -->
     <section class="panel">
+      
+      <!-- Cabeçalho Principal -->
       <div class="panel-head">
-        <h2>Produtos</h2>
+        <h2>Gerenciamento de Produtos</h2>
         <button id="refresh-btn" class="btn btn-ghost">Atualizar</button>
       </div>
 
-      <table class="table">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Nome</th>
-            <th>Preço</th>
-            <th>Estoque</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody id="table-body">
-          <tr><td colspan="5" class="empty">Carregando…</td></tr>
-        </tbody>
-      </table>
+      <!-- Grid Interna: Formulário + Tabela -->
+      <div class="panel-content">
+        
+        <!-- Coluna do Formulário -->
+        <div class="form-section">
+          <h3 id="form-title">Novo produto</h3>
+          
+          <form id="product-form">
+            <input type="hidden" id="product-id">
+
+            <label for="name">Nome</label>
+            <input type="text" id="name" required placeholder="Ex: Teclado mecânico">
+
+            <div class="row">
+              <div class="col">
+                <label for="price">Preço (R$)</label>
+                <input type="number" id="price" step="0.01" min="0" required placeholder="0,00">
+              </div>
+              <div class="col">
+                <label for="stock">Estoque</label>
+                <input type="number" id="stock" min="0" placeholder="0">
+              </div>
+            </div>
+
+            <div class="actions">
+              <button type="submit" id="submit-btn" class="btn btn-primary">Criar produto</button>
+              <button type="button" id="cancel-btn" class="btn btn-ghost hidden">Cancelar edição</button>
+            </div>
+
+            <p id="form-msg" class="form-msg"></p>
+          </form>
+        </div>
+
+        <!-- Coluna da Tabela -->
+        <div class="table-section">
+          <h3>Lista de Produtos</h3>
+          
+          <div class="table-wrapper">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Nome</th>
+                  <th>Preço</th>
+                  <th>Estoque</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="table-body">
+                <tr><td colspan="5" class="empty">Carregando…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
     </section>
 
   </main>
